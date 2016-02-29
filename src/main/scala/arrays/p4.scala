@@ -12,8 +12,6 @@ package arrays
 // Answer the question in most efficient way.
 object p4 extends App {
 
-
-
 //  val l = List(5,  5, 10, 40, 50, 35) // ==> 80
 //  val l = List(3, 2, 7, 10) // ==> 13
   val l = List(3, 2, 5, 10, 7) // ==> 15

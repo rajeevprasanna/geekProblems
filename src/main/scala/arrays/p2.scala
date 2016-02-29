@@ -8,6 +8,10 @@ package arrays
 //  http://www.geeksforgeeks.org/majority-element/
 object p2 extends App {
   val l = List(1, 1, 1, 1, 1, 2, 3, 4)
-  val res = l.groupBy(x => x).toSeq.sortBy(_._2.length).last._1
-  println(res)
+  val res = l.groupBy(x => x).toSeq.sortBy(_._2.length).last
+  if (res._2.length > l.length / 2) {
+    println(res._1)
+  } else {
+    println("No Major element exists")
+  }
 }

@@ -1,17 +1,18 @@
 package arrays
 
 /**
-  * Created by rajeevprasanna on 2/26/16.
+  * Created by rajeevprasanna on 2/27/16.
   */
 
 //http://www.geeksforgeeks.org/maximum-difference-between-two-elements/
 //Maximum difference between two elements such that larger element appears after the smaller number
-object maxDiffElemPair extends App {
 
-  val MIN = -84673843;
-  val MAX = 84673843;
-//  val list = List(2, 3, 10, 6, 4, 8, 1)
-    val list = List( 7, 9, 5, 6, 3, 2)
+object p10 extends App {
+
+  val MIN = -84673843
+  val MAX = 84673843
+  //  val list = List(2, 3, 10, 6, 4, 8, 1)
+  val list = List( 7, 9, 5, 6, 3, 2)
 
   def lesser(x:Int, y:Int):Boolean = x<y
   def greater(x:Int, y:Int):Boolean = x>y
